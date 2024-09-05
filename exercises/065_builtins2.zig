@@ -94,7 +94,7 @@ pub fn main() void {
     print("He has room in his heart for:", .{});
 
     // A StructFields array
-    const fields = @typeInfo(Narcissus).Struct.fields;
+    const fields = @typeInfo(Narcissus).@"struct".fields;
 
     // 'fields' is a slice of StructFields. Here's the declaration:
     //
